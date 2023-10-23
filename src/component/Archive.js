@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Spinner from "./Spinner";
 import Footer from "./Footer";
-const Archive = ({ props,apki }) => {
+const Archive = ({ props }) => {
   const [Data, setData] = useState("");
   const fetchdata = async () => {
     await axios
